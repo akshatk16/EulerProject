@@ -18,4 +18,4 @@ def getPrime(num):
 
 
 #call getPrime function for nth prime
-print(getPrime(100001))
+print(getPrime(10001))
