@@ -1,3 +1,6 @@
+# counting number of Sundays in the 20th Century
+
+
 days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 # print(days[])
 
