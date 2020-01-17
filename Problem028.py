@@ -58,10 +58,11 @@ length = 1001
 
 def poly(k):
 	res = (16/3) * (k ** 3) + (10) * (k ** 2) + (26/3) * (k) + 1
+	# compute the result using derived polynomial
 	return round(res)
 
 
-print(poly((length - 1)//2))
+print(poly((length - 1)//2))  # k = (n-1)//2
 
 
 end = time()
