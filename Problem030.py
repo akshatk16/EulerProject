@@ -9,15 +9,28 @@
 # This is the upper limit for the analysis
 
 
+from time import time
+
+
+start = time()
+
 def check_sum(num):
 	sum, chk = 0, num
 	while num > 0:
 		temp = num % 10
 		sum += temp ** 5
 		num //= 10
-	print(sum)
 	if sum == chk:
 		return True
 	return False
 
-ch
+
+total_sum = 0
+for i in range(2, 354295):
+	if check_sum(i):
+		total_sum += i
+print(total_sum)
+
+
+end = time()
+print(int((end-start)*1000), "ms")
