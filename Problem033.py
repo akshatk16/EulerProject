@@ -31,7 +31,7 @@ def funny_fraction(a, b):
 	if den[0] == 0 or len(den) == 2:  # handling division by 0 and no cancellation
 		return False
 	if a/b == num[0]/den[0]:  # checking required condition
-		print(a, "/", b)
+		print(a, "/", b, "=", num[0], "/", den[0])
 		return True
 
 
