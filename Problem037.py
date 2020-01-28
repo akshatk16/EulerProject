@@ -1,3 +1,5 @@
+# sum of all two sided truncatable prime numbers
+
 from time import time
 
 
