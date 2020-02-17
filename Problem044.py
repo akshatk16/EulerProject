@@ -24,7 +24,6 @@ def is_pentagonal(num):
 	# if n is int, x is pentagonal
 
 	n = (num * 24 + 1) ** 0.5
-	# print(n)
 	if n % 6 == 5:  # using modulus operations
 		return True
 
