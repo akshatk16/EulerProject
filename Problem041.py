@@ -1,3 +1,5 @@
+# largest Pandigital prime
+
 from time import time
 from itertools import permutations
 from functools import reduce
