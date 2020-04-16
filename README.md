@@ -19,4 +19,3 @@ If you spot an error or would like to offer a more efficient solution, feel free
 ## Acknowledgments
 
 * projecteuler.net for the problems
-* [Shubham Dogra](https://github.com/ShubhamDogra112) and [Anubhav Jedia](https://github.com/jediacode) for constant motivation
